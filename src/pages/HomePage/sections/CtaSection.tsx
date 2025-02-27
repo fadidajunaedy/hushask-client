@@ -1,34 +1,5 @@
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { IoSettingsOutline } from "react-icons/io5";
-import { RiSparklingLine } from "react-icons/ri";
-import PlaceholderImage from "@/assets/placeholder.jpg";
 import { Link } from "react-router-dom";
-const whyContentArray = [
-  {
-    icon: IoSettingsOutline,
-    title: "Sign up and log in to HushAsk.",
-  },
-  {
-    icon: IoSettingsOutline,
-    title: "Create a room for your session in seconds.",
-  },
-  {
-    icon: RiSparklingLine,
-    title: "Share the access code with your audience.",
-  },
-  {
-    icon: RiSparklingLine,
-    title: "Receive questions in real-time—no hesitation, no fuss.",
-  },
-];
 
 const CtaSection = () => {
   return (

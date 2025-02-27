@@ -1,15 +1,9 @@
-import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { IoSettingsOutline } from "react-icons/io5";
 import { RiSparklingLine } from "react-icons/ri";
+
 import PlaceholderImage from "@/assets/placeholder.jpg";
+
 const whyContentArray = [
   {
     icon: IoSettingsOutline,
